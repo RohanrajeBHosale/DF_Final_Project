@@ -26,28 +26,19 @@ This project aims to detect the presence of steganographic content in images usi
    pip install -r requirements.txt
    ```
 
-3. Set up Git LFS for large files:
-   ```bash
-   git lfs install
-   git lfs pull
-   ```
-
-4. Ensure the dataset is correctly placed in the `data/` directory.
-
+3. Directly run the predict_from_folder.py
+(this takes the files from a folder and then can use as input for detecting.
+   
 ## Usage
 ### Training the Model
+
+PLEASE REFER TO THE LINK TO DOWNLOAD THE DATA FOLDER:   https://umassd-my.sharepoint.com/:u:/g/personal/rbhosale_umassd_edu/EWL52tiiVJVDph_syU_CONUB7tOjTiKkpOTili1CA3UD-g?e=oSLmJb
+
 To train the model, run:
 ```bash
 python model_training/train_model.py
 ```
 
-### Running the Web Application
-Start the Flask application:
-```bash
-python web_app/app.py
-```
-
-Access the web interface at `http://127.0.0.1:5000`.
 
 ### Testing
 Use `predict_from_folder.py` to test images in a specific folder:
@@ -58,8 +49,6 @@ python predict_from_folder.py --folder <folder-path>
 ## Project Structure
 - `data/`: Contains datasets for training and testing.
 - `model_training/`: Scripts for training the steganography detection model.
-- `web_app/`: Flask application for real-time predictions.
 - `utilities/`: Helper functions and pretrained models.
 
 ## License
-This project is licensed under the MIT License.
