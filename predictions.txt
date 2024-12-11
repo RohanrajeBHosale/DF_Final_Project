@@ -1,0 +1,12 @@
+Processing images in folder: test_image
+
+Image: bike_154.png - Prediction: No steganography detected, Confidence: 0.13
+Image: bike_153.png - Prediction: Steganography detected, Confidence: 0.58
+Image: bike_152.png - Prediction: No steganography detected, Confidence: 0.23
+Image: bike_151.png - Prediction: No steganography detected, Confidence: 0.49
+Image: stegno.jpg - Prediction: No steganography detected, Confidence: 0.28
+Image: 0004.png - Prediction: No steganography detected, Confidence: 0.01
+Image: f83c2e64cbad82496df9a8806d082a0b.jpg - Prediction: No steganography detected, Confidence: 0.26
+Image: 0001.png - Prediction: No steganography detected, Confidence: 0.00
+Image: 0003.png - Prediction: No steganography detected, Confidence: 0.10
+Image: 0002.png - Prediction: No steganography detected, Confidence: 0.01
